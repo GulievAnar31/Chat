@@ -1,5 +1,5 @@
 const app = () => {
-    const socket = io('http://localhost:3000');
+    const socket = io('https://chat-rfv4.onrender.com');
     const msgInput = document.querySelector('.message-input');
     const msgsList = document.querySelector('.messages-list');
     const sendBtn = document.querySelector('.send-btn');
